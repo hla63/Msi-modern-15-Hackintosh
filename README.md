@@ -14,7 +14,7 @@ What works:
 graphics acceleration
 keyboard with brightness keys
 trackpad with gesture (sometimes doesn't works seems AppleALC the culprit)
-bluetooth sometimes
+bluetooth (intel) works sometimes
 
 What doesn't works:
 Cnvi intel wlan
