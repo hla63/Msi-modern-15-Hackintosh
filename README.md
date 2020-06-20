@@ -16,6 +16,6 @@ keyboard with brightness
 trackpad with gesture (sometimes doesn't works seems AppleALC the culprit)
 bluetooth sometimes
 
-What doesn't works
+What doesn't works:
 Cnvi intel wlan
 Sound (need more investigation)
