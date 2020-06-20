@@ -19,3 +19,4 @@ bluetooth sometimes
 What doesn't works:
 Cnvi intel wlan
 Sound (need more investigation)
+
