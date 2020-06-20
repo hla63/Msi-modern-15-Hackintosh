@@ -1,5 +1,5 @@
 # Msi-modern-15-Hackintosh
-Opencore &amp; clover EFI 
+Opencore &amp; clover EFI (soon) 
 
 This is my WIP Opencore EFI folder
 
