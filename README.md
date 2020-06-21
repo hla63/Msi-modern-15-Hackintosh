@@ -18,5 +18,6 @@ bluetooth (intel) works sometimes
 
 What doesn't works:
 Cnvi intel wlan
+
 Sound (need more investigation)
 
