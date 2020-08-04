@@ -37,3 +37,5 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - mledour for MSI-FNKEY SSDThttps://github.com/mledour/MSI-GF63-9RCX_OpenCore-Hackintosh
 - zxystd for intelbluetooth, itlwmx & heliport https://github.com/OpenIntelWireless/itlwm
 - dortania https://dortania.github.io
+- Pierre Dandumont for ² key https://www.journaldulapin.com/2020/05/28/faire-un-²-avec-un-clavier-apple/
+- pqrs-org for Karabiner https://karabiner-elements.pqrs.org
