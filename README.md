@@ -8,7 +8,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH (not tested)
 - Realtek ALC 233 (seen as ALC 235) (works with latest AppleALC 1.5.1)
 - Screen CMN N156HCE-EN1 [15.6" LCD]
-- SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**doesn't work properly on mac os**)
+- SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**seems ok with latest nvmefix kext**)
 - Sabrent 1to (works good .Mac os partition)
 - Memory samsung 8 go
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
@@ -28,3 +28,12 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Press ALT + RIGHT-CTRL + RIGHT-SHIFT together then press F2 for see hidden feature
 - Note (press also fn keys for azerty users)
 - go to advanced->power & Performance ->CPU - Power Management Control ->CPU lock Configuration ->CFG lock
+
+# Thanks
+
+- Acidanthera for opencore & most kexts
+- Daliansky for OC-little & XiaoXinPro-13-hackintosh repository
+- lietxa for https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh repository
+- mledour for MSI-FNKEY SSDThttps://github.com/mledour/MSI-GF63-9RCX_OpenCore-Hackintosh
+- zxystd for intelbluetooth, itlwmx & heliport https://github.com/OpenIntelWireless/itlwm
+- dortania https://dortania.github.io
