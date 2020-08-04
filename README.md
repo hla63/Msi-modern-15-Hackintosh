@@ -25,7 +25,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - You had to disabled CFG Lock in bios.
 
 - At startup press suppr key
--**Go to Advanced menu & press the magic combo keys**
+- **Go to Advanced menu & press the magic combo keys**
 
 - Press ALT + RIGHT-CTRL + RIGHT-SHIFT together then press F2 for see hidden feature
 - Note (press also fn keys for azerty users)
