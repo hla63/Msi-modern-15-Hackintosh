@@ -19,3 +19,14 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Keyboard works good (brightness & audio mute/vol -/+) with ssdt
 - trackpad works most of the time (with gesture & trackpad pref)
 
+# Tips
+
+- Make sure you have disabled secure boot in bios.
+- You had to disabled CFG Lock in bios.
+
+- At startup press suppr key
+-**Go to Advanced menu & press the magic combo keys**
+
+- Press ALT + RIGHT-CTRL + RIGHT-SHIFT together then press F2 for see hidden feature
+- Note (press also fn keys for azerty users)
+- go to advanced->power & Performance ->CPU - Power Management Control ->CPU lock Configuration ->CFG lock
