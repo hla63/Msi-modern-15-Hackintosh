@@ -2,7 +2,7 @@
 
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
 # My config
-- Motherboard  **MSI MS-1551**
+- Motherboard  **MSI MS-1551** Bios version E1551IMS.10C
 - Core i5 10210u
 - Intel uhd graphics
 - Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH (not tested)
