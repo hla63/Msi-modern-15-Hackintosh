@@ -1,5 +1,13 @@
 # Welcome to my w.i.p Efi repository
 
+Changelog:
+minor changes:
+TPD0.aml works better.
+Needed patches :
+change  _CRS to XCRS (trackpad) Find 5F435253 Replace 58435253 Tgtbridge 54504430
+change  USTP to XSTP(trackpad) Find 55535450 08 Replace 58535450 08
+
+
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
 # My config
 - Motherboard  **MSI MS-1551** Bios version E1551IMS.10C
