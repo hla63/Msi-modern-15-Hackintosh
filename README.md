@@ -13,7 +13,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Motherboard  **MSI MS-1551** Bios version E1551IMS.10C
 - Core i5 10210u
 - Intel uhd graphics
-- Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH (not tested)
+- Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH (not tested) **seems ok now**
 - Realtek ALC 233 (seen as ALC 235) (works with latest AppleALC 1.5.1)
 - Screen CMN N156HCE-EN1 [15.6" LCD]
 - SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**seems ok with latest nvmefix kext**)
@@ -24,8 +24,9 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Intel(R) Wireless-AC 9560 160MHz Works with latest itlwmx.kext https://github.com/OpenIntelWireless/itlwm/releases
 - Intel bluetooth works. https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
 - **Thanks OpenIntelWireless team**
-- Keyboard works good (brightness & audio mute/vol -/+) with ssdt
-- trackpad works most of the time (with gesture & trackpad pref)
+- Keyboard works (brightness & audio mute/vol -/+) with ssdt
+- trackpad works (with gesture & trackpad pref)
+
 
 # Tips
 
@@ -47,3 +48,4 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - dortania https://dortania.github.io
 - Pierre Dandumont for ² key https://www.journaldulapin.com/2020/05/28/faire-un-²-avec-un-clavier-apple/
 - pqrs-org for Karabiner https://karabiner-elements.pqrs.org
+- FaneCH for https://github.com/FaneCH/Vostro-3490-hackintosh HDMI out works !!!
