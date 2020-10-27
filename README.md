@@ -1,6 +1,8 @@
 # Welcome to my w.i.p Efi repository
 
 Changelog:
+- HDMI out works (I have to test the audio HDMI out) 
+
 - minor changes:
 TPD0.aml works better.
 -Needed patches :
