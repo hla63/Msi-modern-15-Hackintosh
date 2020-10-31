@@ -1,13 +1,7 @@
 # Welcome to my w.i.p Efi repository
 
 Changelog:
-- HDMI out works (I have to test the audio HDMI out) 
-
-- minor changes:
-TPD0.aml works better.
--Needed patches :
-- change  _CRS to XCRS (trackpad) Find 5F435253 Replace 58435253 Tgtbridge 54504430
-- change  USTP to XSTP(trackpad) Find 55535450 08 Replace 58535450 08
+- HDMI out works (I have to test the audio HDMI out)
 
 
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
