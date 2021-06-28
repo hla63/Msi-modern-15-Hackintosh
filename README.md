@@ -1,3 +1,7 @@
+# This EFI is outdated ,please consider Opencore EFI https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
+
+
+
 # Welcome to my w.i.p Efi repository
 
 Changelog:
