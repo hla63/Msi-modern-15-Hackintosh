@@ -1,4 +1,4 @@
-# This EFI is outdated ,please consider Opencore EFI https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
+# This EFI is outdated & for clover only ,please consider Opencore EFI https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
 
 
 
