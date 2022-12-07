@@ -18,7 +18,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Memory samsung 8 go
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
-- Intel(R) Wireless-AC 9560 160MHz Works with https://github.com/OpenIntelWireless/itlwm/releases
+- Intel(R) Wireless-AC 9560 works with https://github.com/OpenIntelWireless/itlwm/releases
 - Intel bluetooth works. https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
 - **Thanks OpenIntelWireless team**
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
