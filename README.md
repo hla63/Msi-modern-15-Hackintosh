@@ -10,7 +10,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Motherboard  **MSI MS-1551** Bios version E1551IMS.10C
 - Core i5 10210u
 - Intel uhd graphics
-- Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH **seems ok now**
+- Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH 
 - Realtek ALC 233 (seen as ALC 235) (works with latest AppleALC 1.5.1)
 - Screen CMN N156HCE-EN1 [15.6" LCD]
 - SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**Disabled on macos/works for windows**)
