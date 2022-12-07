@@ -47,3 +47,4 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - pqrs-org for Karabiner https://karabiner-elements.pqrs.org
 - FaneCH for https://github.com/FaneCH/Vostro-3490-hackintosh HDMI out works !!!
 - 0xFireWolf for https://github.com/0xFireWolf/RealtekCardReader Sdcard reader works !!!
+- 5T33Z0 for https://github.com/5T33Z0/OC-Little-Translated/tree/f4490b9f46b828182cc0c0886a7388e982344e6c Oclittle translated
