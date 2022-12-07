@@ -1,4 +1,4 @@
-![Cover](https://github.com/hla63/Msi-modern-15-Hackintosh/img/Capture d’écran 2022-12-06 à 17.16.00.png)
+![Cover](https://github.com/hla63/Msi-modern-15-Hackintosh/img/Hello.png)
 
 # Welcome to my Efi repository
 
