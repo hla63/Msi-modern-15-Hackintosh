@@ -1,11 +1,8 @@
-# This EFI is outdated & for clover only ,please consider Opencore EFI https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
-
-
 
 # Welcome to my w.i.p Efi repository
 
 Changelog:
-- HDMI out works (I have to test the audio HDMI out)
+Adding Opencore 0.8.7 version
 
 
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
@@ -17,7 +14,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Realtek ALC 233 (seen as ALC 235) (works with latest AppleALC 1.5.1)
 - Screen CMN N156HCE-EN1 [15.6" LCD]
 - SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**seems ok with latest nvmefix kext**)
-- Sabrent 1to (works good .Mac os partition)
+- Sabrent 1to (works good Mac os & Ubuntu partition)
 - Memory samsung 8 go
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **Realtek USB 2.0 Card Reader (doesn't work)**
