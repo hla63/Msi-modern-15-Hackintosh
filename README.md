@@ -46,3 +46,4 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Pierre Dandumont for ² key https://www.journaldulapin.com/2020/05/28/faire-un-²-avec-un-clavier-apple/
 - pqrs-org for Karabiner https://karabiner-elements.pqrs.org
 - FaneCH for https://github.com/FaneCH/Vostro-3490-hackintosh HDMI out works !!!
+- 0xFireWolf for https://github.com/0xFireWolf/RealtekCardReader Sdcard reader works !!!
