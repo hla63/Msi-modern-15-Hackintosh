@@ -1,5 +1,5 @@
 
-# Welcome to my w.i.p Efi repository
+# Welcome to my Efi repository
 
 Changelog:
 Adding Opencore 0.8.7 version
