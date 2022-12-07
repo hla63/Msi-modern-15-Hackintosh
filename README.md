@@ -1,4 +1,3 @@
-![Cover](https://github.com/hla63/Msi-modern-15-Hackintosh/img/Hello.png)
 
 # Welcome to my Efi repository
 
