@@ -25,6 +25,7 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
 - trackpad works (with gesture & trackpad pref)
 # What doesn't works
+- PM980 doesn't work correctly under Macos.I deactivated it with SSDT.
 - Mute key work exept for Led status (always on or always off.Depends on the last state under windows)
 - Usb C to HDMI adapter doesn't work correctly (flickering)
 - DRM for AppleTV or Netflix on Safari
