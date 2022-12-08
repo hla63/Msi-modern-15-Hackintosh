@@ -8,7 +8,6 @@ NID       PinDefault     Device             Connector           Port            
 20 (0x14) 90170010   Out Speaker            Other Analog        Fixed           Internal N/A                Unknown   1  0  0x2   01471C10 01471D00 01471E17 01471F90 01470C02
 25 (0x19) 038B1040   In  Line In            Combination         Jack            External Left               Black     4  0  -     01971C40 01971D10 01971E8B 01971F03
 33 (0x21) 032B1020   Out HP Out             Combination         Jack            External Left               Black     2  0  0x2   02171C20 02171D10 02171E2B 02171F03 02170C02
-32 (0x20) 000000F0   Out Line Out           Unknown             Jack            External N/A                Unknown   15 0  -     02071CF0 02071D00 02071E00 02071F00
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
 
