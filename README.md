@@ -7,6 +7,7 @@ Adding Opencore 0.8.7 version
 
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
 # My config
+- Mac Os Monterey 12.6.1
 - Motherboard  **MSI MS-1551** Bios version E1551IMS.10F
 - Core i5 10210u
 - Intel uhd graphics
@@ -23,6 +24,9 @@ Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.H
 - **Thanks OpenIntelWireless team**
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
 - trackpad works (with gesture & trackpad pref)
+# What doesn't works
+- Usb C to HDMI adapter doesn't work correctly (flickering)
+- DRM for AppleTV or Netflix on Safari
 
 
 # Tips
