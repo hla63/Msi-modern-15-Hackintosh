@@ -7,7 +7,7 @@ Adding Opencore 0.8.7 version
 
 Hi! This is my very first time hackintosh machine.I'm a beginner of hackintosh.Help apreciated.
 # My config
-- Mac Os Monterey 12.6.1
+- Mac Os Monterey 12.6.**2**
 - Motherboard  **MSI MS-1551** with latest Bios version E1551IMS.10F
 - Core i5 10210u
 - Intel uhd graphics
