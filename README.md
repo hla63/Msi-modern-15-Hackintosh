@@ -3,9 +3,6 @@
 
 Changelog:
 Adding Opencore 0.8.7 version
-# -> if you want to update to Ventura 
-enable-backlight-registers-fix
-must be replace with enable-backlight-registers-alternative-fix 
 
 # My config
 - Mac Os Monterey 12.6.**2**
