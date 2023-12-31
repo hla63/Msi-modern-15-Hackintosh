@@ -13,7 +13,7 @@ Adding Opencore 0.8.7 version
 - Realtek ALC 233 (seen as ALC 235) layout 29
 - Screen CMN N156HCE-EN1 [15.6" LCD]
 - SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**Disabled on macos/works for windows**)
-- Sabrent 1to (works good Mac os & Ubuntu partition.Triple boot)
+- Sabrent 1to (works good Mac os Fyde Os & Ubuntu partition.Quad boot)
 - Memory samsung 8 go
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
