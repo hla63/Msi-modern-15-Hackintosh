@@ -1,20 +1,21 @@
 
-# Welcome to my Efi repository
+# Welcome to my EFI repository
 
 Changelog:
+CillyCil - Updating for OpenCore 1.0.0 and macOS Sonoma
 Adding Opencore 0.8.7 version
 
 # My config
-- Mac Os Monterey 12.6.**2**
+- macOS Sonoma 14.4.**1**
 - Motherboard  **MSI MS-1551** with latest Bios version E1551IMS.10F
-- Core i5 10210u
-- Intel uhd graphics
+- Core i5-10210u
+- Intel UHD 620 Mobile graphics
 - Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH 
 - Realtek ALC 233 (seen as ALC 235) layout 29
 - Screen CMN N156HCE-EN1 [15.6" LCD]
-- SAMSUNG MZVLB512HAJQ-00000 (512 Go, PCI-E 3.0 x4) (**Disabled on macos/works for windows**)
-- Sabrent 1to (works good Mac os Fyde Os & Ubuntu partition.Quad boot)
-- Memory samsung 8 go
+- WDC WDS250G2B0B-00YS70 (250 Gb, mSATA, Windows)
+- HFS256G39TND-N210A (256 Gb, mSATA, macOS Sonoma)
+- 16 GB random memory (i forgor)
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
 - Intel(R) Wireless-AC 9560 works with https://github.com/OpenIntelWireless/itlwm/releases
@@ -23,11 +24,10 @@ Adding Opencore 0.8.7 version
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
 - trackpad works (with gesture & trackpad pref)
 # What doesn't works
-- PM980 doesn't work correctly under Macos.I deactivated it with SSDT.
-- Mute key work exept for Led status (always on or always off.Depends on the last state under windows)
-- Usb C to HDMI adapter doesn't work correctly (flickering)
+- Mute key works except for LED status (always on or always off. Depends on the last state under windows)
+- USB C to HDMI adapter doesn't work correctly (flickering) **I think it works but am not sure**
 - DRM for AppleTV or Netflix on Safari
-
+- Sometimes unplugging USB-C will cause a restart? Do not know why
 
 # Tips
 
@@ -38,6 +38,7 @@ Adding Opencore 0.8.7 version
 - Press ALT + RIGHT-CTRL + RIGHT-SHIFT together then press F2 for see hidden feature
 - Note (press also fn keys for azerty users)
 - go to advanced->power & Performance ->CPU - Power Management Control ->CPU lock Configuration ->CFG lock
+- **IF YOU CANNOT GET YOUR CAMERA TO WORK PRESS THE CAMERA BUTTON ON YOUR KEYBOARD AND IT WILL TURN ON**
 
 # Thanks
 
@@ -52,3 +53,4 @@ Adding Opencore 0.8.7 version
 - FaneCH for https://github.com/FaneCH/Vostro-3490-hackintosh HDMI out works !!!
 - 0xFireWolf for https://github.com/0xFireWolf/RealtekCardReader Sdcard reader works !!!
 - 5T33Z0 for https://github.com/5T33Z0/OC-Little-Translated/tree/f4490b9f46b828182cc0c0886a7388e982344e6c Oclittle translated
+- hla64 for original repo https://github.com/hla63/Msi-modern-15-Hackintosh
