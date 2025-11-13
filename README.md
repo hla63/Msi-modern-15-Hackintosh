@@ -6,7 +6,7 @@ CillyCil - Updating for OpenCore 1.0.0 and macOS Sonoma
 Adding Opencore 0.8.7 version
 
 # My config
-- macOS Sonoma 14.4.**1**
+- macOS Sonoma 14.7.**6**
 - Motherboard  **MSI MS-1551** with latest Bios version E1551IMS.10F
 - Core i5-10210u
 - Intel UHD 620 Mobile graphics
