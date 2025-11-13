@@ -15,7 +15,7 @@ Adding Opencore 0.8.7 version
 - Screen CMN N156HCE-EN1 [15.6" LCD]
 - PM980a (doesn't works with macos)
 - Sabrent ssd 1to
-- 16 GB random memory (i forgor)
+- 16 GB ram
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **UPDATED Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
 - Intel(R) Wireless-AC 9560 works with https://github.com/OpenIntelWireless/itlwm/releases
