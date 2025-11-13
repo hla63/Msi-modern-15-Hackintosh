@@ -16,7 +16,7 @@ Adding Opencore 0.8.7 version
 - Sabrent 1to (works good Mac os Fyde Os & Ubuntu partition.Quad boot)
 - Memory samsung 8 go
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
-- **Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
+- **UPDATED Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
 - Intel(R) Wireless-AC 9560 works with https://github.com/OpenIntelWireless/itlwm/releases
 - Intel bluetooth works. https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
 - **Thanks OpenIntelWireless team**
