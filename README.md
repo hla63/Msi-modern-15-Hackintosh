@@ -53,4 +53,4 @@ Adding Opencore 0.8.7 version
 - FaneCH for https://github.com/FaneCH/Vostro-3490-hackintosh HDMI out works !!!
 - 0xFireWolf for https://github.com/0xFireWolf/RealtekCardReader Sdcard reader works !!!
 - 5T33Z0 for https://github.com/5T33Z0/OC-Little-Translated/tree/f4490b9f46b828182cc0c0886a7388e982344e6c Oclittle translated
-- hla63 for original repo https://github.com/hla63/Msi-modern-15-Hackintosh
+- Andres garcia sobrado for repo https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
