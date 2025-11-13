@@ -13,8 +13,8 @@ Adding Opencore 0.8.7 version
 - Intel Kaby Lake HDMI @ Intel Comet Point-LP PCH 
 - Realtek ALC 233 (seen as ALC 235) layout 29
 - Screen CMN N156HCE-EN1 [15.6" LCD]
-- WDC WDS250G2B0B-00YS70 (250 Gb, mSATA, Windows)
-- HFS256G39TND-N210A (256 Gb, mSATA, macOS Sonoma)
+- PM980a (doesn't works with macos)
+- Sabrent ssd 1to
 - 16 GB random memory (i forgor)
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **UPDATED Realtek USB 2.0 Card Reader (work with https://github.com/0xFireWolf/RealtekCardReader)**
