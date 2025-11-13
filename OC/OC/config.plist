@@ -524,8 +524,7 @@
 				<data>mz4AAA==</data>
 				<key>dpcd-max-link-rate</key>
 				<data>CgAAAA==</data>
-				<key>enable-backlight-registers-fix
-				</key>
+				<key>enable-backlight-registers-alternative-fix</key>
 				<data>AQAAAA==</data>
 				<key>enable-dpcd-max-link-rate-fix</key>
 				<data>AQAAAA==</data>
