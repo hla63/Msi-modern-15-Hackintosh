@@ -44,6 +44,7 @@ Changelog:
 
 - Acidanthera for opencore & most kexts
 - Daliansky for OC-little & XiaoXinPro-13-hackintosh repository
+- bismillah-100 for https://github.com/0xFireWolf/RealtekCardReader/pull/61)- CillyCil for sonoma update https://github.com/CillyCil
 - lietxa for https://github.com/lietxia/XiaoXinAir14IML_2019_hackintosh repository
 - mledour for MSI-FNKEY SSDT https://github.com/mledour/MSI-GF63-9RCX_OpenCore-Hackintosh
 - zxystd for intelbluetooth, itlwmx & heliport https://github.com/OpenIntelWireless/itlwm
