@@ -2,9 +2,9 @@
 # Welcome to my EFI repository
 
 Changelog:
-Updating for OpenCore 1.0.**6** and macOS Sonoma
-Updating realtek card reader
-Added [Advanced Map](https://github.com/notjosh/AdvancedMap)
+- Updating for OpenCore 1.0.**6** and macOS Sonoma
+- Updating realtek card reader
+- Added [Advanced Map](https://github.com/notjosh/AdvancedMap)
 # My config
 - macOS Sonoma 14.7.**6**
 - Motherboard  **MSI MS-1551** with latest Bios version E1551IMS.10F
