@@ -27,7 +27,7 @@ Changelog:
 - Mute key works except for LED status (always on or always off. Depends on the last state under windows)
 - USB C to HDMI adapter doesn't work correctly (flickering) **I think it works but am not sure**
 - DRM for AppleTV or Netflix on Safari
-- Sometimes unplugging USB-C will cause a restart? Do not know why
+- Sometimes unplugging USB-C will cause a restart =>**resolved with sonoma tx to Claude Ai** https://github.com/hla63/Msi-modern-15-Hackintosh/issues/8
 
 # Tips
 
