@@ -27,7 +27,8 @@ Changelog:
 # What doesn't works
 - USB C to HDMI adapter doesn't work correctly (flickering)
 - DRM for AppleTV or Netflix on Safari
-- Sometimes unplugging USB-C will cause a restart =>**resolved under sonoma tx to Claude Ai** https://github.com/hla63/Msi-modern-15-Hackintosh/issues/8
+- unplugging Graphic Drawing Tablet Pad with USB-C will cause a restart
+- =>**resolved under sonoma tx to Claude Ai** https://github.com/hla63/Msi-modern-15-Hackintosh/issues/8
 
 # Tips
 
