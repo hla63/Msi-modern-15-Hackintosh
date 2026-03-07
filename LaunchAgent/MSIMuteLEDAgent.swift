@@ -248,9 +248,13 @@ final class MuteObserver {
 
         NSLog("[MSIMuteLEDAgent] Rotation écran → %d°", newDegree)
 
+        // Spec complète nécessaire pour que displayplacer fonctionne
+        // dans les deux sens (0°→180° et 180°→0°)
+        let spec = "id:\(kDisplayID) res:1920x1080 color_depth:4 enabled:true scaling:off origin:(0,0) degree:\(newDegree)"
+
         let task = Process()
         task.executableURL = URL(fileURLWithPath: "/usr/local/bin/displayplacer")
-        task.arguments = ["id:\(kDisplayID) degree:\(newDegree)"]
+        task.arguments = [spec]
         let pipe = Pipe()
         task.standardOutput = pipe
         task.standardError  = pipe
