@@ -23,8 +23,8 @@ Changelog:
 - **Thanks OpenIntelWireless team**
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
 - trackpad works (with gesture & trackpad pref)
+- Mute key LED should work **(see launch agent for details sonoma works /maybe sequoia works too)**
 # What doesn't works
-- Mute key works except for LED status **(work in Progress)**
 - USB C to HDMI adapter doesn't work correctly (flickering)
 - DRM for AppleTV or Netflix on Safari
 - Sometimes unplugging USB-C will cause a restart =>**resolved under sonoma tx to Claude Ai** https://github.com/hla63/Msi-modern-15-Hackintosh/issues/8
