@@ -2,7 +2,7 @@
 # Welcome to my EFI repository
 
 Changelog:
-- Updating for OpenCore 1.0.**6** and macOS Sonoma
+- Updating for OpenCore 1.0.**8** and macOS Sonoma
 - Updating realtek card reader
 - Added [Advanced Map](https://github.com/notjosh/AdvancedMap)
 # My config
