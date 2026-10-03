@@ -42,7 +42,7 @@ Changelog:
 - Note (press also fn keys for azerty users)
 - go to advanced->power & Performance ->CPU - Power Management Control ->CPU lock Configuration ->CFG lock
 - **IF YOU CANNOT GET YOUR CAMERA TO WORK PRESS THE CAMERA BUTTON ON YOUR KEYBOARD AND IT WILL TURN ON**
-- **Not included in this repo (disabled in config.plist):** my own MSI EC kexts `SMCMSIFan.kext` & `MSIECToolbox.kext` and `SSDT-DMAC.aml` (cosmetic). Add them to `Kexts/` / `ACPI/` and set `Enabled` to true if you have them.
+- **Not included in this repo (disabled in config.plist):** my own MSI EC kexts `SMCMSIFan.kext` & `MSIECToolbox.kext`. Add them to `Kexts/` and set `Enabled` to true if you have them.
 - The FydeOS custom entry in `Misc → Entries` is an example (disabled): adapt the device path to your own disk to use it. Ubuntu is detected automatically by OpenLinuxBoot + ext4_x64.
 - The second NVMe slot (`PciRoot(0x0)/Pci(0x1D,0x0)`) is disabled for macOS with `class-code = 0` because Samsung PM98x drives are not compatible. Remove this DeviceProperty if you have a compatible SSD in that slot.
 

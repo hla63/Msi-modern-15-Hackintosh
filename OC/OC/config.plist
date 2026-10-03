@@ -120,9 +120,9 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Not included in this repo (cosmetic DMA controller) - add your own SSDT-DMAC.aml to enable</string>
+				<string>SSDT-DMAC.aml</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-DMAC.aml</string>
 			</dict>
