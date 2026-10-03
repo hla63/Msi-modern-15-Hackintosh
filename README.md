@@ -55,6 +55,21 @@ The `LaunchAgent` folder is a copy of [MSI-EC-TOOLBOX/LaunchAgent](https://githu
 - Logs: `log stream --predicate 'process == "MSIECToolboxAgent"'`
 - See the MSI-EC-TOOLBOX README for details and code-signing options (`SIGN_IDENTITY`).
 
+# Sleep
+
+**Boom 3D prevents automatic sleep.** Its virtual audio device (`GDAudioDevice`) keeps an audio stream open even when nothing is playing, so macOS never goes to sleep on idle (manual sleep and closing the lid still work). `pmset -g` then shows `sleep prevented by coreaudiod`.
+
+- Check: `pmset -g assertions | grep -i coreaudiod` (a `GDAudioDevice` line means Boom 3D is holding the audio stream)
+- Fix: enable the **sleep when inactive** option in Boom 3D's settings, then run the check again: it should print nothing.
+- Otherwise: quit Boom 3D, or switch the sound output to the built-in speakers when you don't need its effects.
+
+**Hibernation is not set up** (HibernationFixup disabled), so disable automatic hibernation/standby to avoid losing your session after a long sleep:
+
+```
+sudo pmset -a hibernatemode 0 standby 0
+sudo rm -f /var/vm/sleepimage
+```
+
 # Boot chime (optional)
 
 The boot chime is **disabled** but ready: `AudioDxe.efi` is loaded and `UEFI → Audio → AudioSupport` is `true`, only the chime itself is off.
