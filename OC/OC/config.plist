@@ -1690,9 +1690,9 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>Not needed: the MSI firmware already provides the PS/2 keyboard driver</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
