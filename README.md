@@ -32,6 +32,7 @@ Changelog:
 
 # Tips
 
+- **The EFI will not boot until you generate your own MLB, ROM, SystemSerialNumber and SystemUUID** (PlatformInfo → Generic in config.plist, e.g. with [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) for MacBookPro16,3).
 - Make sure you have disabled secure boot in bios.
 - You had to disabled CFG Lock in bios.
 - At startup press suppr key to enter in bios.
