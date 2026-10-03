@@ -70,6 +70,16 @@ sudo pmset -a hibernatemode 0 standby 0
 sudo rm -f /var/vm/sleepimage
 ```
 
+# Orange microphone dot & SIP (csr-active-config)
+
+Boom 3D keeps the microphone input open, so macOS permanently shows the orange "microphone in use" dot in the menu bar. I hide it with [YellowDot](https://lowtechguys.com/yellowdot/).
+
+YellowDot needs SIP to be partially disabled, which is why `NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → csr-active-config` is set to `03080000` (0x803).
+
+- Check the current state: `csrutil status`
+- If you don't use YellowDot (or any other tool/patch that needs SIP disabled), set `csr-active-config` to `00000000` to fully enable SIP. It is listed in `NVRAM → Delete`, so the new value is applied at the next boot.
+- With SIP partially disabled, macOS updates are downloaded as full installers instead of small delta updates.
+
 # Boot chime (optional)
 
 The boot chime is **disabled** but ready: `AudioDxe.efi` is loaded and `UEFI → Audio → AudioSupport` is `true`, only the chime itself is off.
