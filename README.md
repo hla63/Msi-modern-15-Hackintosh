@@ -106,3 +106,4 @@ The boot chime is **disabled** but ready: `AudioDxe.efi` is loaded and `UEFI →
 - 0xFireWolf for https://github.com/0xFireWolf/RealtekCardReader Sdcard reader works !!!
 - 5T33Z0 for https://github.com/5T33Z0/OC-Little-Translated/tree/f4490b9f46b828182cc0c0886a7388e982344e6c Oclittle translated
 - Andres garcia sobrado for repo https://github.com/AndresGarciaSobrado91/MSI-Modern15-Hackintosh
+- Claude (Anthropic) via [Claude Code](https://claude.com/claude-code) for the OpenCore 1.0.8 update, config.plist & ACPI audit, sleep troubleshooting and repo cleanup
