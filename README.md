@@ -55,6 +55,33 @@ The `LaunchAgent` folder is a copy of [MSI-EC-TOOLBOX/LaunchAgent](https://githu
 - Logs: `log stream --predicate 'process == "MSIECToolboxAgent"'`
 - See the MSI-EC-TOOLBOX README for details and code-signing options (`SIGN_IDENTITY`).
 
+# Sleep
+
+**Boom 3D prevents automatic sleep.** Its virtual audio device (`GDAudioDevice`) keeps an audio stream open even when nothing is playing, so macOS never goes to sleep on idle (manual sleep and closing the lid still work). `pmset -g` then shows `sleep prevented by coreaudiod`.
+
+- Check: `pmset -g assertions | grep -i coreaudiod` (a `GDAudioDevice` line means Boom 3D is holding the audio stream)
+- Fix: enable the **sleep when inactive** option in Boom 3D's settings, then run the check again: it should print nothing.
+- Otherwise: quit Boom 3D, or switch the sound output to the built-in speakers when you don't need its effects.
+
+**Hibernation is not set up** (HibernationFixup disabled), so disable automatic hibernation/standby to avoid losing your session after a long sleep:
+
+```
+sudo pmset -a hibernatemode 0 standby 0
+sudo rm -f /var/vm/sleepimage
+```
+
+# Orange microphone dot & SIP (csr-active-config)
+
+Boom 3D keeps the microphone input open, so macOS permanently shows the orange "microphone in use" dot in the menu bar. I hide it with [Recording Indicator Utility](https://github.com/cormiertyshawn895/RecordingIndicatorUtility) (works on Sonoma; discontinued and **not compatible with macOS Sequoia 15.4 or later**).
+
+Recording Indicator Utility requires SIP to be disabled, which is why `NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → csr-active-config` is set to `03080000` (0x803). With this value `csrutil status` reports SIP as disabled, which is what the utility checks.
+
+- Check the current state: `csrutil status`
+- If you don't use Recording Indicator Utility (or any other tool/patch that needs SIP disabled), first turn the indicator back on and click "Raise Security Settings" in the utility, then set `csr-active-config` to `00000000` to fully enable SIP. It is listed in `NVRAM → Delete`, so the new value is applied at the next boot.
+- With SIP disabled: macOS updates are downloaded as full installers, Apple Pay is disabled, and Netflix / Apple TV+ stream in HD instead of 4K.
+- Before upgrading to Sequoia 15.4 or later, turn the recording indicator back on in the utility. Otherwise, run `sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.systemstatusd.plist` to fix the high CPU usage it can cause.
+- [YellowDot](https://lowtechguys.com/yellowdot/) does not need SIP changes, but according to the Recording Indicator Utility FAQ it only supports macOS 12.1 and earlier.
+
 # Boot chime (optional)
 
 The boot chime is **disabled** but ready: `AudioDxe.efi` is loaded and `UEFI → Audio → AudioSupport` is `true`, only the chime itself is off.
