@@ -623,9 +623,9 @@
 				<key>BundlePath</key>
 				<string>SMCMSIFan.kext</string>
 				<key>Comment</key>
-				<string>V1.1.0 | owner custom MSI EC kext, not included in this repo - add it to Kexts/ to enable</string>
+				<string>V1.2.0 | SMCMSIFan.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCMSIFan</string>
 				<key>MaxKernel</key>
@@ -911,7 +911,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>V2.8</string>
+				<string>V2.9.1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1073,9 +1073,9 @@
 				<key>BundlePath</key>
 				<string>MSIECToolbox.kext</string>
 				<key>Comment</key>
-				<string>V5.3.1 | owner custom MSI EC kext, not included in this repo - add it to Kexts/ to enable</string>
+				<string>V5.3.1 | MSIECToolbox.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/MSIECToolbox</string>
 				<key>MaxKernel</key>

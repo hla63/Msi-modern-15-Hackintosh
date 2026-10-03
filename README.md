@@ -3,7 +3,7 @@
 
 Changelog:
 - Updating for OpenCore 1.0.**8** and macOS Sonoma
-- config.plist synced with my working config (audited & cleaned up), kexts updated (Lilu 1.7.2, VirtualSMC 1.3.8, WhateverGreen 1.7.1, AppleALC 1.9.8, VoodooPS2 2.3.7)
+- config.plist synced with my working config (audited & cleaned up), kexts updated (Lilu 1.7.2, VirtualSMC 1.3.8, WhateverGreen 1.7.1, AppleALC 1.9.8, VoodooPS2 2.3.7, VoodooI2C 2.9.1)
 - Updating realtek card reader
 - Added [Advanced Map](https://github.com/notjosh/AdvancedMap)
 # My config
@@ -42,7 +42,7 @@ Changelog:
 - Note (press also fn keys for azerty users)
 - go to advanced->power & Performance ->CPU - Power Management Control ->CPU lock Configuration ->CFG lock
 - **IF YOU CANNOT GET YOUR CAMERA TO WORK PRESS THE CAMERA BUTTON ON YOUR KEYBOARD AND IT WILL TURN ON**
-- **Not included in this repo (disabled in config.plist):** my own MSI EC kexts `SMCMSIFan.kext` & `MSIECToolbox.kext`. Add them to `Kexts/` and set `Enabled` to true if you have them.
+- `SMCMSIFan.kext` (fan readings for VirtualSMC) and `MSIECToolbox.kext` (MSI EC features) are my own kexts, built for this laptop's embedded controller.
 - The FydeOS custom entry in `Misc → Entries` is an example (disabled): adapt the device path to your own disk to use it. Ubuntu is detected automatically by OpenLinuxBoot + ext4_x64.
 - The second NVMe slot (`PciRoot(0x0)/Pci(0x1D,0x0)`) is disabled for macOS with `class-code = 0` because Samsung PM98x drives are not compatible. Remove this DeviceProperty if you have a compatible SSD in that slot.
 
