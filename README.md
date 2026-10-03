@@ -72,13 +72,15 @@ sudo rm -f /var/vm/sleepimage
 
 # Orange microphone dot & SIP (csr-active-config)
 
-Boom 3D keeps the microphone input open, so macOS permanently shows the orange "microphone in use" dot in the menu bar. I hide it with [YellowDot](https://lowtechguys.com/yellowdot/).
+Boom 3D keeps the microphone input open, so macOS permanently shows the orange "microphone in use" dot in the menu bar. I hide it with [Recording Indicator Utility](https://github.com/cormiertyshawn895/RecordingIndicatorUtility) (works on Sonoma; discontinued and **not compatible with macOS Sequoia 15.4 or later**).
 
-YellowDot needs SIP to be partially disabled, which is why `NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → csr-active-config` is set to `03080000` (0x803).
+Recording Indicator Utility requires SIP to be disabled, which is why `NVRAM → Add → 7C436110-AB2A-4BBB-A880-FE41995C9F82 → csr-active-config` is set to `03080000` (0x803). With this value `csrutil status` reports SIP as disabled, which is what the utility checks.
 
 - Check the current state: `csrutil status`
-- If you don't use YellowDot (or any other tool/patch that needs SIP disabled), set `csr-active-config` to `00000000` to fully enable SIP. It is listed in `NVRAM → Delete`, so the new value is applied at the next boot.
-- With SIP partially disabled, macOS updates are downloaded as full installers instead of small delta updates.
+- If you don't use Recording Indicator Utility (or any other tool/patch that needs SIP disabled), first turn the indicator back on and click "Raise Security Settings" in the utility, then set `csr-active-config` to `00000000` to fully enable SIP. It is listed in `NVRAM → Delete`, so the new value is applied at the next boot.
+- With SIP disabled: macOS updates are downloaded as full installers, Apple Pay is disabled, and Netflix / Apple TV+ stream in HD instead of 4K.
+- Before upgrading to Sequoia 15.4 or later, turn the recording indicator back on in the utility. Otherwise, run `sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.systemstatusd.plist` to fix the high CPU usage it can cause.
+- [YellowDot](https://lowtechguys.com/yellowdot/) does not need SIP changes, but according to the Recording Indicator Utility FAQ it only supports macOS 12.1 and earlier.
 
 # Boot chime (optional)
 
