@@ -24,7 +24,7 @@ Changelog:
 - **Thanks OpenIntelWireless team**
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
 - trackpad works (with gesture & trackpad pref)
-- Mute key LED should work **(see launch agent for details sonoma works /maybe sequoia works too)**
+- Mute key LED, fan readings and MSI EC features work with [MSI-EC-TOOLBOX](https://github.com/hla63/MSI-EC-TOOLBOX) (`MSIECToolbox.kext` + `SMCMSIFan.kext` + menu bar agent, see below)
 # What doesn't works
 - USB C to HDMI adapter doesn't work correctly (flickering)
 - DRM for AppleTV or Netflix on Safari
@@ -45,6 +45,15 @@ Changelog:
 - `SMCMSIFan.kext` (fan readings for VirtualSMC) and `MSIECToolbox.kext` (MSI EC features) are my own kexts, built for this laptop's embedded controller.
 - The FydeOS custom entry in `Misc → Entries` is an example (disabled): adapt the device path to your own disk to use it. Ubuntu is detected automatically by OpenLinuxBoot + ext4_x64.
 - The second NVMe slot (`PciRoot(0x0)/Pci(0x1D,0x0)`) is disabled for macOS with `class-code = 0` because Samsung PM98x drives are not compatible. Remove this DeviceProperty if you have a compatible SSD in that slot.
+
+# LaunchAgent (MSIECToolbox menu bar agent)
+
+The `LaunchAgent` folder is a copy of [MSI-EC-TOOLBOX/LaunchAgent](https://github.com/hla63/MSI-EC-TOOLBOX/tree/main/LaunchAgent) (mute key + LED sync, mute OSD, fan profiles, EC tools). It needs `MSIECToolbox.kext` loaded.
+
+- Build and install it **without sudo** (the script asks for sudo itself): `cd LaunchAgent && ./build_and_install.sh`
+- Requires Xcode command line tools (`swiftc`), macOS 13+.
+- Logs: `log stream --predicate 'process == "MSIECToolboxAgent"'`
+- See the MSI-EC-TOOLBOX README for details and code-signing options (`SIGN_IDENTITY`).
 
 # Boot chime (optional)
 
