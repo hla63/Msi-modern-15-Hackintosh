@@ -45,6 +45,7 @@ Changelog:
 - `SMCMSIFan.kext` (fan readings for VirtualSMC) and `MSIECToolbox.kext` (MSI EC features) are my own kexts, built for this laptop's embedded controller.
 - The FydeOS custom entry in `Misc → Entries` is an example (disabled): adapt the device path to your own disk to use it. Ubuntu is detected automatically by OpenLinuxBoot + ext4_x64.
 - The second NVMe slot (`PciRoot(0x0)/Pci(0x1D,0x0)`) is disabled for macOS with `class-code = 0` because Samsung PM98x drives are not compatible. Remove this DeviceProperty if you have a compatible SSD in that slot.
+- **VoodooI2C**: this EFI uses the latest official release, 2.9.1 (Nov. 2024). A more up-to-date build exists in [Baio1977/VoodooI2C](https://github.com/Baio1977/VoodooI2C) (2.9.1.a): it is the official VoodooI2C development branch, which includes 5 fixes merged after 2.9.1 but never released (reworked I2C bus timings, new D0 power state handling for Cannon/Comet/Ice Lake I2C controllers, clock gating limited to Broadwell/Lynx Point, updated VoodooI2CHID). Worth a try if the trackpad misbehaves (e.g. after wake); replace `VoodooI2C.kext` and `VoodooI2CHID.kext` together, keep a backup of your EFI. It is not an official release.
 
 # LaunchAgent (MSIECToolbox menu bar agent)
 
