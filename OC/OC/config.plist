@@ -981,24 +981,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>IntelBluetoothInjector.kext</string>
-				<key>Comment</key>
-				<string>V2.4.0 | IntelBluetoothInjector.kext</string>
-				<key>Enabled</key>
-				<false/>
-				<key>ExecutablePath</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
 				<string>V2.6.8</string>
@@ -1708,9 +1690,9 @@
 				<key>Arguments</key>
 				<string></string>
 				<key>Comment</key>
-				<string></string>
+				<string>Not needed: the MSI firmware already provides the PS/2 keyboard driver</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>HideVerbose</key>
 				<false/>
 				<key>LoadEarly</key>
