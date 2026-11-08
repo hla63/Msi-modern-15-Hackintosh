@@ -18,7 +18,7 @@ Changelog:
 - **UPDATED 32 GB** ram
 - Intel Comet Point-LP PCH - USB 3.1 xHCI Host Controller
 - **UPDATED Realtek USB 2.0 Card Reader (thx bismillah-100 https://github.com/0xFireWolf/RealtekCardReader/pull/61)**
-- Intel(R) Wireless-AC 9560 works with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) 2.3.0, Sonoma 14.4+ build (`AirportItlwm-sonoma.kext`, native Wi-Fi, no OCLP patch needed). **It will not load on Sequoia** (`MaxKernel` 23.9.9): Sequoia needs another solution (itlwm + HeliPort, or OCLP root patches)
+- Intel(R) Wireless-AC 9560 works with [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) 2.3.0, Sonoma 14.4+ build (`AirportItlwm-sonoma.kext`, native Wi-Fi, no OCLP patch needed). **It will not load on Sequoia** (`MaxKernel` 23.9.9): Sequoia/Tahoe need another build (see Tips)
 - Intel bluetooth works. https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases
 - **Thanks OpenIntelWireless team**
 - Keyboard works (brightness & audio mute/vol -/+) with ssdt
@@ -45,6 +45,7 @@ Changelog:
 - `SMCMSIFan.kext` (fan readings for VirtualSMC) and `MSIECToolbox.kext` (MSI EC features) are my own kexts, built for this laptop's embedded controller.
 - The FydeOS custom entry in `Misc → Entries` is an example (disabled): adapt the device path to your own disk to use it. Ubuntu is detected automatically by OpenLinuxBoot + ext4_x64.
 - The second NVMe slot (`PciRoot(0x0)/Pci(0x1D,0x0)`) is disabled for macOS with `class-code = 0` because Samsung PM98x drives are not compatible. Remove this DeviceProperty if you have a compatible SSD in that slot.
+- **Wi-Fi on Sequoia / Tahoe**: [laobamac/itlwm](https://github.com/laobamac/itlwm) provides native `AirportItlwm` builds for **macOS Sequoia 15.2+** (`AirportItlwm-Sequoia`, Darwin 24.2.0–24.99.99) and **macOS Tahoe 26** (`AirportItlwm-Tahoe`, Darwin 25.x), with no OCLP root patches. The AC 9560 (iwm) path received fixes there (Tahoe support, TX double-free on network switch, scan timing), plus the iMessage/FaceTime link-quality fix. Limits: no WPA3-only / mandatory PMF networks, no AirDrop; these are development builds that still need validation on each adapter. There is no Sonoma build: keep `AirportItlwm-sonoma.kext` (2.3.0) on Sonoma and restrict each kext with `MinKernel`/`MaxKernel` if one config boots several macOS versions.
 - **VoodooI2C**: this EFI uses the latest official release, 2.9.1 (Nov. 2024). A more up-to-date build exists in [Baio1977/VoodooI2C](https://github.com/Baio1977/VoodooI2C) (2.9.1.a): it is the official VoodooI2C development branch, which includes 5 fixes merged after 2.9.1 but never released (reworked I2C bus timings, new D0 power state handling for Cannon/Comet/Ice Lake I2C controllers, clock gating limited to Broadwell/Lynx Point, updated VoodooI2CHID). Worth a try if the trackpad misbehaves (e.g. after wake); replace `VoodooI2C.kext` and `VoodooI2CHID.kext` together, keep a backup of your EFI. It is not an official release.
 
 # LaunchAgent (MSIECToolbox menu bar agent)
